@@ -1,0 +1,77 @@
+#save
+{
+    display: flex;
+    background-color: cyan;
+}
+#search
+{
+    margin-top: 40px;
+    position: absolute;
+    /* margin-left: 45%; */
+    color: red;   
+}
+#inputtext
+{
+    width: 25%;
+    height: 70%;
+    margin-left: 12%;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+/* Make all cards in row the same height */
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.row > div[class*='col-'] {
+  display: flex;
+}
+
+/* Hover effects */
+.card {
+  transition: -webkit-transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.01, 1.01);
+}
+
+/* Responsive design for image heights */
+@media (min-width: 576px) { 
+  .card-img-top {
+    height: 50vw;
+  }
+}
+
+@media (min-width: 768px) { 
+  .card-img-top {
+    height: 30vw;
+  }
+}
+
+@media (min-width: 992px) { 
+  .card-img-top {
+    height: 20vw;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .card-img-top {
+    height: 20vw;
+  }
+}
+
+#button
+{
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    border: none;
+    
+}
