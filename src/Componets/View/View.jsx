@@ -11,7 +11,7 @@ export default function View() {
           console.log(response.data)
           setData(response.data)
         }) 
-    },[])
+    },[data])
     console.log(data);
   return (
     <>

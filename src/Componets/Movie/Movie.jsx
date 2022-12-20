@@ -19,7 +19,7 @@ axios.get(`http://www.omdbapi.com/?s=${data.name}&apikey=b4372579`)
 .then(response=>{
     console.log(response)
     console.log(response.data)
-    setValue(response.data.Search) 
+    setValue(response.data.Search)  
     setId(response.data.Search
       )
 })
